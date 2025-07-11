@@ -5,20 +5,20 @@ const Header = () => {
     <header className="bg-gradient-to-r from-orange-400 to-pink-500 px-6 py-4 relative overflow-hidden">
       {/* Comic dots pattern background */}
       <div className="absolute inset-0 opacity-30">
-        <div 
+        <div
           className="w-full h-full"
           style={{
             backgroundImage: `radial-gradient(circle, #fff 2px, transparent 2px)`,
             backgroundSize: '20px 20px',
             backgroundPosition: '0 0, 10px 10px'
-          }}
-        />
+          }} />
+
       </div>
       
       <div className="container mx-auto flex items-center justify-between relative z-10">
         <div className="flex items-center space-x-4">
-          <h1 className="text-3xl font-black text-white transform -rotate-2 drop-shadow-lg">
-            POP ART
+          <h1 className='text-white text-3xl font-black transform -rotate-2 drop-shadow-lg'>ART
+
           </h1>
           <div className="bg-yellow-300 px-2 py-1 transform rotate-12 shadow-lg">
             <span className="text-black font-bold text-sm">STORE!</span>
@@ -55,8 +55,8 @@ const Header = () => {
           </button>
         </div>
       </div>
-    </header>
-  );
+    </header>);
+
 };
 
 export default Header;
